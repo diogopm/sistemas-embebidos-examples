@@ -2,6 +2,6 @@
 
 ## G2553 code examples
 
-### Blink_TimerA_Interrupt
-
-- The development of this code is described in [Lab 1 - Low-power operation modes](labs/Lab1-ModosFuncionamentoLPM.pdf)
+Por favor seguir as regras:
+* Nomes das pastas descritivos para facilitar a procura
+* Um ficheiro README.md por projecto com uma descrição sobre o programa, que periféricos utiliza e outras informações relevantes

@@ -30,7 +30,7 @@ int main(void)
 #pragma vector = TIMER0_A0_VECTOR
 __interrupt void TIMER0A0_ISR(){
 
-        //P1OUT ^= RED_LED;
+        P1OUT ^= RED_LED;
 }
 
 // TimerA0 Vector 1 -> CCR1, CCR2 and Overflow interrupts

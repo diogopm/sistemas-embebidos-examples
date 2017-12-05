@@ -10,11 +10,10 @@
  *      Author: Diogo Pina Manique
  */
 
-#define ACLK_FREQ 25
+
+#define ACLK_FREQ 12000
 #define TICK_DIVISOR_CCR0 ACLK_FREQ
-#define TICK_DIVISOR_CCR1 (TICK_DIVISOR_CCR0*(99/100.0))
-//#define TICK_DIVISOR_CCR0 50
-//#define TICK_DIVISOR_CCR1 49
+#define TICK_DIVISOR_CCR1 TICK_DIVISOR_CCR0/2
 
 void setupPorts();
 void setupTimerA();
